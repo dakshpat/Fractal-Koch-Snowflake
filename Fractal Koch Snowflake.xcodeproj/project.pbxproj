@@ -17,6 +17,10 @@
 		B1AF664C27B9A0CE008E9129 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF662227B9A0CB008E9129 /* ContentView.swift */; };
 		B1AF664D27B9A0CE008E9129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AF662327B9A0CE008E9129 /* Assets.xcassets */; };
 		B1AF664E27B9A0CE008E9129 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AF662327B9A0CE008E9129 /* Assets.xcassets */; };
+		B1AF665E27B9A474008E9129 /* Koch Snowflake view.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF665D27B9A474008E9129 /* Koch Snowflake view.swift */; };
+		B1AF665F27B9A474008E9129 /* Koch Snowflake view.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF665D27B9A474008E9129 /* Koch Snowflake view.swift */; };
+		B1AF666127B9A48D008E9129 /* Koch_snowflake_Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF666027B9A48D008E9129 /* Koch_snowflake_Function.swift */; };
+		B1AF666227B9A48D008E9129 /* Koch_snowflake_Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AF666027B9A48D008E9129 /* Koch_snowflake_Function.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		B1AF664127B9A0CE008E9129 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1AF664527B9A0CE008E9129 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B1AF664727B9A0CE008E9129 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		B1AF665D27B9A474008E9129 /* Koch Snowflake view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Koch Snowflake view.swift"; sourceTree = "<group>"; };
+		B1AF666027B9A48D008E9129 /* Koch_snowflake_Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Koch_snowflake_Function.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 			children = (
 				B1AF662127B9A0CB008E9129 /* Fractal_Koch_SnowflakeApp.swift */,
 				B1AF662227B9A0CB008E9129 /* ContentView.swift */,
+				B1AF666027B9A48D008E9129 /* Koch_snowflake_Function.swift */,
+				B1AF665D27B9A474008E9129 /* Koch Snowflake view.swift */,
 				B1AF662327B9A0CE008E9129 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -300,7 +308,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1AF664B27B9A0CE008E9129 /* ContentView.swift in Sources */,
+				B1AF665E27B9A474008E9129 /* Koch Snowflake view.swift in Sources */,
 				B1AF664927B9A0CE008E9129 /* Fractal_Koch_SnowflakeApp.swift in Sources */,
+				B1AF666127B9A48D008E9129 /* Koch_snowflake_Function.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1AF664C27B9A0CE008E9129 /* ContentView.swift in Sources */,
+				B1AF665F27B9A474008E9129 /* Koch Snowflake view.swift in Sources */,
 				B1AF664A27B9A0CE008E9129 /* Fractal_Koch_SnowflakeApp.swift in Sources */,
+				B1AF666227B9A48D008E9129 /* Koch_snowflake_Function.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
